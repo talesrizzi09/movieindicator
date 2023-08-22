@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Movie Indicator</title>
         <link rel="stylesheet" href="aba3.css" />
-        <link rel="stylesheet" media="screen and (min-width: 768px)" href="widescreen-style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -41,10 +40,19 @@
             O filme Oppenheimer tem classificção indicativa de 16 Anos. Contém conteúdo sexual, drogas lícitas, violência.</p>
     </div>
     <br>
-    <div class="container">
-        <img class="imagens" src="oppenheimer.png" alt="cena barbie">
-        <img class="imagens" src="oppenheimer_ver2_xlg.jpg" alt="cena barbie">
-    </div>
+    <p class="cenas">Cenas</p>
+    <br>
+    <div class="carousel-container">
+        <div class="carousel">
+          <img src="oppenheimer_ver2_xlg.jpg" alt="cena do filme oppenheimer">
+          <img src="cenaOppen.jpeg" alt="cena do filme oppenheimer">
+          <img src="oppenheimerrrrrr.jpeg" alt="cena do filme oppenheimer">
+          <img src="opcena.jpg" alt="cena do filme oppenheimer">
+        </div>
+        <button class="prev-button"><img src="angulo-esquerdo.png" width="30px" alt="imagem da seta"> </button>
+        <button class="next-button"><img src="angulo-direito.png" width="30px" alt="imagem da seta"></button>
+      </div>
+      <br>
     <br>
         <p class="txt"> "Oppenheimer" é uma das mais aguardadas produções cinematográficas dos últimos anos, lançada em 2023 sob a direção do renomado cineasta Christopher Nolan. O filme narra a fascinante e complexa história de J. Robert Oppenheimer, um dos cientistas mais influentes do século XX, cujo trabalho teve um impacto profundo no curso da história mundial.
 
@@ -108,5 +116,6 @@
                         </ul>   
                 </div>   
         </footer>
+        <script src="scriptCarrossel.js"></script>
         <script src="scriptAvaliacao.js"></script>
 </body>
